@@ -1,0 +1,89 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.14.4, running with linear solver MUMPS 5.4.1.
+
+Number of nonzeros in equality constraint Jacobian...:        1
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:       53
+
+Total number of variables............................:       12
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:       12
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:        1
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  2.6809904e+01 0.00e+00 1.77e+00  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  2.5195820e+01 9.86e-32 4.03e+00  -1.0 1.84e+00   0.0 8.55e-01 1.00e+00f  1
+   2  2.2942261e+01 6.16e-33 3.11e+00  -1.0 7.58e-01   0.4 9.89e-01 1.00e+00f  1
+   3  2.2262748e+01 1.85e-32 4.47e-01  -1.0 5.10e-01  -0.1 1.00e+00 1.00e+00f  1
+   4  2.1935037e+01 6.16e-33 2.60e-01  -1.7 8.27e-01  -0.5 1.00e+00 1.00e+00f  1
+   5  2.1838063e+01 4.81e-35 2.39e-01  -1.7 3.00e-01  -0.1 1.00e+00 1.00e+00f  1
+   6  2.1587636e+01 1.23e-32 1.89e-01  -1.7 7.17e-01  -0.6 1.00e+00 1.00e+00f  1
+   7  2.1326424e+01 1.23e-32 2.69e+00  -2.5 5.11e+00  -1.1 6.98e-01 5.00e-01f  2
+   8  2.0821628e+01 3.69e-32 1.21e+00  -2.5 7.84e-01  -0.6 1.00e+00 5.00e-01f  2
+   9  2.0550534e+01 4.81e-35 3.10e-01  -2.5 3.60e-01  -0.2 1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  2.0288797e+01 9.87e-32 1.27e+00  -2.5 1.05e+00  -0.7 1.00e+00 1.00e+00f  1
+  11  2.0009127e+01 2.47e-32 1.21e-01  -2.5 1.26e+00  -1.2 1.00e+00 1.00e+00f  1
+  12  1.9780418e+01 2.47e-32 8.91e-01  -2.5 4.61e+00    -  1.00e+00 5.16e-01f  1
+  13  1.9765682e+01 1.76e-32 6.77e-01  -2.5 3.63e+00    -  1.00e+00 2.89e-01f  1
+  14  1.9756340e+01 5.25e-33 2.16e-02  -2.5 2.98e-01    -  1.00e+00 1.00e+00f  1
+  15  1.9748241e+01 1.44e-34 4.84e-03  -3.8 2.75e-01    -  1.00e+00 1.00e+00f  1
+  16  1.9747787e+01 4.86e-35 1.37e-05  -3.8 1.87e-02    -  1.00e+00 1.00e+00f  1
+  17  1.9747491e+01 2.41e-34 3.43e-06  -5.7 7.00e-03    -  1.00e+00 1.00e+00f  1
+  18  1.9747487e+01 4.23e-37 5.18e-10  -7.0 8.94e-05    -  1.00e+00 1.00e+00f  1
+
+Number of Iterations....: 18
+
+                                   (scaled)                 (unscaled)
+Objective...............:   1.9747487076805633e+01    1.9747487076805633e+01
+Dual infeasibility......:   5.1778527237116280e-10    5.1778527237116280e-10
+Constraint violation....:   4.2298879461058843e-37    4.2298879461058843e-37
+Variable bound violation:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   9.0929507407424720e-08    9.0929507407424720e-08
+Overall NLP error.......:   9.0929507407424720e-08    9.0929507407424720e-08
+
+
+Number of objective function evaluations             = 23
+Number of objective gradient evaluations             = 19
+Number of equality constraint evaluations            = 23
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 1
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 18
+Total seconds in IPOPT                               = 4.561
+
+EXIT: Optimal Solution Found.
+Objective value: 19.747487076805633
+Final Solution:
+6×2 DataFrame
+ Row │ name    example
+     │ String  Float64
+─────┼───────────────────
+   1 │ A        0.942838
+   2 │ B       -0.727462
+   3 │ C       -0.402582
+   4 │ D       -0.108013
+   5 │ E        0.179955
+   6 │ F        0.14422
+----------
+5×2 DataFrame
+ Row │ userNumber  value
+     │ Int64       Float64?
+─────┼──────────────────────
+   1 │          1  10.0
+   2 │          2  -1.21498
+   3 │          3  -1.13279
+   4 │          4  -1.11578
+   5 │          5  10.0
+

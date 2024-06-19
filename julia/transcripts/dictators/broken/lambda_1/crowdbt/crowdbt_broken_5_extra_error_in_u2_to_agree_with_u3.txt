@@ -1,0 +1,84 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.14.4, running with linear solver MUMPS 5.4.1.
+
+Number of nonzeros in equality constraint Jacobian...:        1
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:       53
+
+Total number of variables............................:       12
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:       12
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:        1
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  2.6228101e+01 0.00e+00 1.47e+00  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  2.5121824e+01 0.00e+00 4.72e+00  -1.0 3.09e+00    -  5.50e-01 1.21e-01f  1
+   2  2.3767485e+01 4.93e-32 5.01e-01  -1.0 9.33e-01    -  9.83e-01 1.00e+00f  1
+   3  2.3564627e+01 2.62e-33 2.31e+00  -1.0 9.65e-01   0.0 2.77e-01 8.91e-01f  1
+   4  2.3502982e+01 5.19e-32 8.43e-01  -1.0 1.98e+00    -  3.48e-02 5.00e-01f  2
+   5  2.2968348e+01 3.57e-33 8.92e-01  -1.7 1.92e+00    -  9.41e-01 9.81e-01f  1
+   6  2.2855933e+01 1.18e-32 6.99e-01  -1.7 3.51e+00    -  2.45e-01 1.11e-01f  2
+   7  2.2726201e+01 5.47e-34 1.01e-01  -1.7 3.27e-01    -  1.00e+00 1.00e+00f  1
+   8  2.2662887e+01 5.47e-34 1.63e-01  -2.5 1.56e-01  -0.5 9.89e-01 1.00e+00f  1
+   9  2.2655959e+01 5.47e-34 1.16e+00  -2.5 5.90e-01    -  1.00e+00 4.66e-02f  2
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  2.2648559e+01 2.23e-34 8.33e-03  -2.5 6.42e-02    -  1.00e+00 1.00e+00f  1
+  11  2.2638302e+01 5.46e-34 7.04e-04  -3.8 1.68e-02    -  1.00e+00 9.98e-01f  1
+  12  2.2637957e+01 2.19e-36 1.46e-07  -5.7 2.21e-04    -  1.00e+00 1.00e+00f  1
+  13  2.2637952e+01 1.18e-37 6.73e-11  -7.0 4.52e-06    -  1.00e+00 1.00e+00f  1
+
+Number of Iterations....: 13
+
+                                   (scaled)                 (unscaled)
+Objective...............:   2.2637951747932824e+01    2.2637951747932824e+01
+Dual infeasibility......:   6.7266536214268763e-11    6.7266536214268763e-11
+Constraint violation....:   1.1805780381718062e-37    1.1805780381718062e-37
+Variable bound violation:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   9.0915328179383264e-08    9.0915328179383264e-08
+Overall NLP error.......:   9.0915328179383264e-08    9.0915328179383264e-08
+
+
+Number of objective function evaluations             = 20
+Number of objective gradient evaluations             = 14
+Number of equality constraint evaluations            = 20
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 1
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 13
+Total seconds in IPOPT                               = 4.006
+
+EXIT: Optimal Solution Found.
+Objective value: 22.637951747932824
+Final Solution:
+6×2 DataFrame
+ Row │ name    example
+     │ String  Float64
+─────┼───────────────────
+   1 │ A       -0.130993
+   2 │ B        0.74328
+   3 │ C        0.265082
+   4 │ D       -1.69231
+   5 │ E        0.213796
+   6 │ F        0.324352
+----------
+5×2 DataFrame
+ Row │ userNumber  example
+     │ Int64       Float64?
+─────┼────────────────────────
+   1 │          1  0.28898
+   2 │          2  1.0
+   3 │          3  1.0
+   4 │          4  1.47752e-7
+   5 │          5  0.540941
+

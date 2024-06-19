@@ -1,0 +1,4 @@
+use-flipped-indices: true
+scale-min: -100.0
+scale-max: 100.0
+tol: 1e-6

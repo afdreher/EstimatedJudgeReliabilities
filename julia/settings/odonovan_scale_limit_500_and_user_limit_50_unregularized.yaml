@@ -1,0 +1,8 @@
+estimate-user-reliability: true
+use-flipped-indices: true
+scale-min: -500.0
+scale-max: 500.0 
+user-min: -50.0
+user-max: 50.0
+tol: 1e-6
+user-start-value: 1.0

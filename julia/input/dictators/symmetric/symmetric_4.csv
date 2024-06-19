@@ -1,0 +1,16 @@
+example,1,1,A,B,more
+example,1,2,A,B,less
+example,1,3,A,B,less
+example,1,4,A,B,less
+example,2,1,B,C,less
+example,2,2,B,C,more
+example,2,3,B,C,less
+example,2,4,B,C,less
+example,3,1,C,D,less
+example,3,2,C,D,less
+example,3,3,C,D,more
+example,3,4,C,D,less
+example,4,1,D,E,less
+example,4,2,D,E,less
+example,4,3,D,E,less
+example,4,4,D,E,more
