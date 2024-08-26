@@ -3,7 +3,7 @@
 
 This GitHub repository is the artifact for our KDD 2024 paper.
 
-> Estimated Judge Reliabilities for Weighted Bradley-Terry-Luce Are Not Reliable.  Andrew F. Dreher, Etienne Vogua, Donald S. Fussell.
+> Estimated Judge Reliabilities for Weighted Bradley-Terry-Luce Are Not Reliable.  Andrew F. Dreher, Etienne Vouga, Donald S. Fussell.
 > In KDD '24: The 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining Proceedings. https://doi.org/10.1145/3637528.3671907
 
 ## Overview
