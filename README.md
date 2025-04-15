@@ -305,3 +305,10 @@ Recreating the input data consists of 3 primary steps. An optional fourth step e
 ## Additional Results
 
 In `Supplemental.pdf`, we show the full table created by adding a different error in every position for every judge (Section 4.3) and additional analysis of the Fonts results (Section 5).  These are provided for transparency and are not necessary to understand the paper's results.
+
+
+## A remark about discontinuity and LLM alignment:
+
+At KDD and afterward, several perceptive people asked how the paper results could impact the alignment (post-training) task with large language models. The answer is that the unreliability results shown in the paper do not depend on having a single, connected scale. The behavior is essentially unchanged. Thus, any system using weighted BTL as the core operation where the weights are estimated from the population's answers should have similar issues.
+
+As an extreme example, consider the case where every pair embodies a scale with two stimuli. In this case, one stimulus will always be at the lower limit and the other at the positive limit. Which stimulus occupies which endpoint and what the values are for the estimated judge weights follow that of Section 3. The same set-coverage-like behavior dominates.
